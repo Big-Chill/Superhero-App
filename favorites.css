@@ -1,0 +1,75 @@
+/* favorites.css */
+
+/* Body styles */
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  /* Page heading styles */
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Table container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Table styles */
+  .table {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table header styles */
+  .table thead th {
+    background-color: #f8f9fa;
+    border-top: none;
+    font-weight: bold;
+  }
+  
+  /* Table body styles */
+  .table tbody td {
+    vertical-align: middle;
+  }
+  
+  /* Superhero image styles */
+  .table tbody td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Table row hover styles */
+  .table tbody tr:hover {
+    background-color: #f8f9fa;
+  }
+
+  .remove-from-favorites-button {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 12px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Responsive table styles */
+  @media (max-width: 576px) {
+    .table {
+      font-size: 14px;
+    }
+    .table thead th {
+      font-size: 14px;
+    }
+  }
+  
